@@ -17,7 +17,7 @@ body
 #header
 {
     width: 100%;
-    height: 50vh;
+    height: 40vh;
     /* background-image: url("images/MYFULLPHOTO.jpg");
     background-size: cover;
     background-position: right; */
@@ -28,6 +28,9 @@ body
 .container
 {
     padding : 10px 10%;
+}
+.navabar{
+     background-color: #2a2828;
 }
 nav
 {
