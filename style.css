@@ -450,16 +450,18 @@ nav .fas
 @media only screen and (max-width: 600px){
     #header{
         background-image: url();
+         height: 20vh;
     }
     .header-text
     {
         font-size: 16px;
         display: flex;
         flex-direction: column;
+        margin-left: 50px;
     }
     .header-text-photo
     {
-        margin-top: 20px;
+        margin-top: 100px;
         height: 300px;
         width: 300px;
         margin-left: 20px;
@@ -536,7 +538,7 @@ nav .fas
 }
 @media only screen and (max-width: 320px){
     .header-text-photo{
-        margin-left: -15px;
+        margin-left: -41px;
     }
     .copyright
     {
