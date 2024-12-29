@@ -17,10 +17,13 @@ body
 #header
 {
     width: 100%;
-    height: 100vh;
+    height: 50vh;
     /* background-image: url("images/MYFULLPHOTO.jpg");
     background-size: cover;
     background-position: right; */
+     position:sticky;
+     top: 0;
+     z-index: 9999;
 }
 .container
 {
@@ -32,9 +35,6 @@ nav
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    position:sticky;
-    top:0;
-    z-index:999999
 }
 .logo
 {
@@ -71,9 +71,10 @@ nav ul li a:hover::after
 }
 .header-text
 {
-    margin-top: 20%;
+    /* margin-top: 20%; */
     font-size: 30px;
-    display: grid;
+    display: flex;
+    justify-content: space-evenly;
     grid-template-columns: auto auto auto;
 }
 .header-text h1
